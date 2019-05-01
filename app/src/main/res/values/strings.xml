@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ATM Consultoria</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ATM Consultoria</string>
+    <string name="nav_header_subtitle">atm.consultoria@email.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="logo_image_description">Logo ATM Consultoria</string>
+
+    <string name="nav_home">Principal</string>
+    <string name="nav_services">Serviços</string>
+    <string name="nav_clientes">Clientes</string>
+    <string name="group_comunicacao">Comunicação</string>
+    <string name="nav_contact">Contato</string>
+    <string name="nav_sobre">Sobre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
