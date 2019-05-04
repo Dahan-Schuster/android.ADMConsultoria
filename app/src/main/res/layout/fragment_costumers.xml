@@ -5,10 +5,33 @@
     android:layout_height="match_parent"
     tools:context=".fragment.CostumersFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_margin="8pt"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8pt"
+            android:text="@string/nav_clientes"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8pt"
+            android:text="Em mais de 15 anos de existência, a ATM acumula experiência e know how em empresas nacionais e multinacionais. De diversos portes, em vários segmentos e em todo o território nacional." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lista_clientes" />
+
+    </LinearLayout>
 </FrameLayout>

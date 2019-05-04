@@ -17,6 +17,29 @@
     <string name="nav_contact">Contato</string>
     <string name="nav_sobre">Sobre</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_service_2">A definição e análise de indicadores permitem avaliar o desempenho da organização de acordo com as metas estabelecidas, possibilitando seu acompanhamento e permitindo que sejam feitas as adequações necessárias para atingir os resultados desejados.</string>
+    <string name="text_service_1">Qualidade é uma responsabilidade de todos os níves da organiação. Ao implementar um sistema de gestão de qualidade, a empresa se prepara melhor para enfrentar os riscos qualitativos. Nossas normas de gestão que visam construir um modelo de gestão são a ISO 9001, ISO 14001, ISO 18001, ISO 31000, a certificação</string>
+    <string name="text_title_service_2">Indicadores de desempenho</string>
+    <string name="text_title_service_1">Sistema de gestão de qualidade</string>
+
+    <string name="lista_clientes">
+        <html>
+            <body>
+                <ul>
+                    <li>3M</li>
+                    <br/>
+                    <li>Bieffe</li>
+                    <br/>
+                    <li>Sundows Motos</li>
+                    <br/>
+                    <li>OLX</li>
+                    <br/>
+                    <li>Mercado Livre</li>
+                    <br/>
+                    <li>Souza Cruz</li>
+                </ul>
+            </body>
+        </html>
+    </string>
 </resources>
