@@ -2,8 +2,8 @@
     <string name="app_name">ATM Consultoria</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">ATM Consultoria</string>
-    <string name="nav_header_subtitle">atm.consultoria@email.com</string>
+    <string name="atm">ATM Consultoria</string>
+    <string name="atm_email">atm.consultoria@email.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -23,23 +23,18 @@
     <string name="text_title_service_2">Indicadores de desempenho</string>
     <string name="text_title_service_1">Sistema de gestão de qualidade</string>
 
-    <string name="lista_clientes">
-        <html>
-            <body>
-                <ul>
-                    <li>3M</li>
-                    <br/>
-                    <li>Bieffe</li>
-                    <br/>
-                    <li>Sundows Motos</li>
-                    <br/>
-                    <li>OLX</li>
-                    <br/>
-                    <li>Mercado Livre</li>
-                    <br/>
-                    <li>Souza Cruz</li>
-                </ul>
-            </body>
-        </html>
-    </string>
+    <string name="cliente_3M">3M</string>
+    <string name="cliente_bieffe">Bieffe</string>
+    <string name="cliente_sundow_motos">Sundows Motos</string>
+    <string name="cliente_olx">OLX</string>
+    <string name="cliente_mercado_livre">Mercado Livre</string>
+    <string name="cliente_souza_cruz">Souza Cruz</string>
+    <string name="text_about_1">A ATM Consultoria tem como missão apoiar as organizações que desejam alcançar o sucesso através da excelência em gestão e da busca pela Qualidade.</string>
+    <string name="text_about_2">Nosso trabalho é dar suporte às empresas que desejam se certificar em padrões de qualidade ou investir no desenvolvimento e evolução de sua gestão, por meio da otimização dos processos e da disseminação dos Fundamentos e Critérios da Excelência.</string>
+    <string name="version">Versão 1.0</string>
+    <string name="text_talk_to_us">Fale conosco</string>
+    <string name="logo_atm_consultoria">Logo ATM Consultoria</string>
+    <string name="text_costumers">Em mais de 15 anos de existência, a ATM acumula experiência e <i>know how</i> em empresas nacionais e multinacionais de diversos portes, em vários segmentos e em todo o território nacional.</string>
+    <string name="about_page_contact">Entre em contato conosco:</string>
+    <string name="google_atm">https://www.google.com/search?q=Atm+Consultoria</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.atmconsultoria;
+package com.example.atmconsultoria.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +15,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.example.atmconsultoria.fragment.AboutFragment;
+import com.example.atmconsultoria.R;
 import com.example.atmconsultoria.fragment.CostumersFragment;
 import com.example.atmconsultoria.fragment.HomeFragment;
 import com.example.atmconsultoria.fragment.ServicesFragment;
@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity
     private HomeFragment homeFragment;
     private ServicesFragment servicesFragment;
     private CostumersFragment costumersFragment;
-    private AboutFragment aboutFragment;
 
 
     @Override
@@ -41,18 +40,18 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         configurarToolBar();
-        configurarFAB();
         configurarNavDrawer();
+        configurarFAB();
 
         inicializarFragments();
         abrirFragment(homeFragment);
+
     }
 
     private void inicializarFragments() {
         homeFragment = new HomeFragment();
         servicesFragment = new ServicesFragment();
         costumersFragment = new CostumersFragment();
-        aboutFragment = new AboutFragment();
     }
 
     private void configurarNavDrawer() {
@@ -85,6 +84,7 @@ public class MainActivity extends AppCompatActivity
         Email.setType("text/email");
         Email.putExtra(Intent.EXTRA_EMAIL,
                 new String[]{"atm.consultoria@email.com"});
+        Email.putExtra(Intent.EXTRA_SUBJECT, "Email para ATM Consultoria");
 
         startActivity(Intent.createChooser(Email, "Envie-nos uma mensagem:"));
     }
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_contact) {
             enviarEmail();
         } else if (id == R.id.nav_about) {
-            abrirFragment(aboutFragment);
+            startActivity(new Intent(this, AboutActivity.class));
         }
 
         fecharNavDrawer();
